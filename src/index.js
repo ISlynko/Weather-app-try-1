@@ -4,6 +4,7 @@ function displayTemperature(response) {
   let currentCity = document.querySelector("#city-current");
 
   currentCity.innerHTML = response.data.city;
+
   temperatureElement.innerHTML = `${currentTemperature}&deg;C`;
 }
 
